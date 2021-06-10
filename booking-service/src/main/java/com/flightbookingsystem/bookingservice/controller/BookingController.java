@@ -11,5 +11,10 @@ public class BookingController {
 		return "Hello Booking Service";
 	}
 	
+	
+	@GetMapping("/hellobooking1")
+	public String test1(){
+		return "Hello Booking Service";
+	}
 
 }
